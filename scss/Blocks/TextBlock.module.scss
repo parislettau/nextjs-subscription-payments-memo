@@ -1,0 +1,47 @@
+.text {
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 4rem;
+  line-height: 4rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  blockquote {
+    font-family: var(--mono);
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--size);
+  }
+
+  span {
+    font-family: var(--mono);
+    font-size: var(--size);
+    line-height: var(--size);
+
+    &::after {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+
+  h1 {
+    font-size: 7.6rem;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    letter-spacing: 2%;
+  }
+
+  h2 {
+    font-size: 4.5rem;
+    font-style: normal;
+    font-family: JJannon Display;
+    font-weight: 400;
+    font-weight: 400;
+  }
+}

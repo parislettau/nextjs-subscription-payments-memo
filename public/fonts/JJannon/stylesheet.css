@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'JJannon';
+    src: url('JJannon-ExtraBoldItalic.eot');
+    src: local('JJannon ExtraBold Italic'), local('JJannon-ExtraBoldItalic'),
+        url('JJannon-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-ExtraBoldItalic.woff2') format('woff2'),
+        url('JJannon-ExtraBoldItalic.woff') format('woff'),
+        url('JJannon-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-LightItalic.eot');
+    src: local('JJannon Display Light Italic'), local('JJannonDisplay-LightItalic'),
+        url('JJannonDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-LightItalic.woff2') format('woff2'),
+        url('JJannonDisplay-LightItalic.woff') format('woff'),
+        url('JJannonDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-BoldItalic.eot');
+    src: local('JJannon Display Bold Italic'), local('JJannonDisplay-BoldItalic'),
+        url('JJannonDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-BoldItalic.woff2') format('woff2'),
+        url('JJannonDisplay-BoldItalic.woff') format('woff'),
+        url('JJannonDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon';
+    src: url('JJannon-Regular.eot');
+    src: local('JJannon Regular'), local('JJannon-Regular'),
+        url('JJannon-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-Regular.woff2') format('woff2'),
+        url('JJannon-Regular.woff') format('woff'),
+        url('JJannon-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon';
+    src: url('JJannon-Italic.eot');
+    src: local('JJannon Italic'), local('JJannon-Italic'),
+        url('JJannon-Italic.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-Italic.woff2') format('woff2'),
+        url('JJannon-Italic.woff') format('woff'),
+        url('JJannon-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-Italic.eot');
+    src: local('JJannon Display Italic'), local('JJannonDisplay-Italic'),
+        url('JJannonDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-Italic.woff2') format('woff2'),
+        url('JJannonDisplay-Italic.woff') format('woff'),
+        url('JJannonDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Book';
+    src: url('JJannon-BookItalic.eot');
+    src: local('JJannon Book Italic'), local('JJannon-BookItalic'),
+        url('JJannon-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-BookItalic.woff2') format('woff2'),
+        url('JJannon-BookItalic.woff') format('woff'),
+        url('JJannon-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon';
+    src: url('JJannon-Bold.eot');
+    src: local('JJannon Bold'), local('JJannon-Bold'),
+        url('JJannon-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-Bold.woff2') format('woff2'),
+        url('JJannon-Bold.woff') format('woff'),
+        url('JJannon-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon';
+    src: url('JJannon-BoldItalic.eot');
+    src: local('JJannon Bold Italic'), local('JJannon-BoldItalic'),
+        url('JJannon-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-BoldItalic.woff2') format('woff2'),
+        url('JJannon-BoldItalic.woff') format('woff'),
+        url('JJannon-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon';
+    src: url('JJannon-ExtraBold.eot');
+    src: local('JJannon ExtraBold'), local('JJannon-ExtraBold'),
+        url('JJannon-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-ExtraBold.woff2') format('woff2'),
+        url('JJannon-ExtraBold.woff') format('woff'),
+        url('JJannon-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-Light.eot');
+    src: local('JJannon Display Light'), local('JJannonDisplay-Light'),
+        url('JJannonDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-Light.woff2') format('woff2'),
+        url('JJannonDisplay-Light.woff') format('woff'),
+        url('JJannonDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-Regular.eot');
+    src: local('JJannon Display Regular'), local('JJannonDisplay-Regular'),
+        url('JJannonDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-Regular.woff2') format('woff2'),
+        url('JJannonDisplay-Regular.woff') format('woff'),
+        url('JJannonDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-Bold.eot');
+    src: local('JJannon Display Bold'), local('JJannonDisplay-Bold'),
+        url('JJannonDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-Bold.woff2') format('woff2'),
+        url('JJannonDisplay-Bold.woff') format('woff'),
+        url('JJannonDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-ExtraBold.eot');
+    src: local('JJannon Display ExtraBold'), local('JJannonDisplay-ExtraBold'),
+        url('JJannonDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-ExtraBold.woff2') format('woff2'),
+        url('JJannonDisplay-ExtraBold.woff') format('woff'),
+        url('JJannonDisplay-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Book';
+    src: url('JJannon-Book.eot');
+    src: local('JJannon Book'), local('JJannon-Book'),
+        url('JJannon-Book.eot?#iefix') format('embedded-opentype'),
+        url('JJannon-Book.woff2') format('woff2'),
+        url('JJannon-Book.woff') format('woff'),
+        url('JJannon-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JJannon Display';
+    src: url('JJannonDisplay-ExtraBoldItalic.eot');
+    src: local('JJannon Display ExtraBold Italic'), local('JJannonDisplay-ExtraBoldItalic'),
+        url('JJannonDisplay-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('JJannonDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('JJannonDisplay-ExtraBoldItalic.woff') format('woff'),
+        url('JJannonDisplay-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,90 @@
+.table {
+  font-family: var(--sans);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 125%;
+  /* or 125% */
+
+  letter-spacing: 2%;
+  color: #3d100d;
+  padding: 0 var(--gutter);
+
+  table {
+    display: grid;
+    border-collapse: collapse;
+    min-width: 100%;
+    grid-template-columns: 1fr 8fr 6fr 2fr 2fr;
+  }
+
+  // @media(max-width: 768px) {
+  //   grid-template-columns:
+  //     1fr 10fr 5fr 4fr 2fr;
+  // }
+
+  thead {
+    line-height: calc(3rem * 1.25);
+  }
+
+  tbody {
+    border-collapse: collapse;
+  }
+
+  thead,
+  tbody,
+  tr {
+    display: contents;
+  }
+
+  th,
+  td {
+    // padding: var(--gutter);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4.5rem;
+    text-align: left;
+    font-weight: normal;
+    // font-size: 1.2rem;
+  }
+
+  th:last-child {
+    border: 0;
+  }
+
+  tr {
+    cursor: pointer;
+    // border-bottom: 1px solid #000;
+
+    &:hover {
+      color: var(--purple);
+      // font-weight: 400;
+      // border-bottom: 1px solid #000;
+      // margin-bottom: -1px;
+    }
+  }
+
+  td {
+    // font-size: 1.2rem;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    // color: #808080;
+  }
+
+  .issue {
+  }
+  .title {
+  }
+  .venue {
+  }
+  .author {
+  }
+  .date {
+    text-align: right;
+  }
+}

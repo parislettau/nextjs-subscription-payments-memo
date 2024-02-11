@@ -1,0 +1,71 @@
+.tile {
+  cursor: pointer;
+  font-size: var(--size);
+  line-height: 110%;
+
+  li,
+  ul {
+    padding: 0;
+    display: inline;
+  }
+
+  li:before {
+    content: ", ";
+  }
+
+  li:after {
+    content: "";
+  }
+
+  li:last-child:before {
+    content: " and ";
+  }
+
+  li:first-child:before {
+    content: "By ";
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .category {
+      text-align: left;
+      /* Caption mono */
+      font-family: var(--mono);
+      font-style: normal;
+      font-weight: normal;
+      letter-spacing: 2%;
+      text-transform: uppercase;
+    }
+
+    .author {
+      text-align: right;
+      font-family: var(--sans);
+      font-weight: 100;
+      letter-spacing: 2%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-left: 5px;
+    }
+  }
+
+  .text {
+    font-family: var(--Lido-Regular);
+    font-style: italic;
+    font-weight: bold;
+    font-size: var(--size);
+    // line-height: 29px;
+    letter-spacing: 0.02rem;
+    /* or 97% */
+  }
+
+  .details {
+    font-family: var(--sans);
+    font-weight: 100;
+    letter-spacing: 0.02rem;
+    padding-top: 0.5rem;
+  }
+}

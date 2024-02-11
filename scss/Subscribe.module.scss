@@ -1,0 +1,99 @@
+.subscribe {
+    --color: #52FF00;
+    position: fixed;
+    min-height: 350px;
+    width: 548px;
+    padding: 13px;
+    top: calc(50% - calc(400px /2));
+    left: calc(50% - calc(548px /2));
+    background: var(--color);
+    z-index: 10000;
+    font-family: var(--mono);
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.1;
+    display: none;
+    flex-direction: column;
+    color: black;
+
+    @media(max-width: 768px) {
+        min-height: 350px;
+        width: 350px;
+        top: calc(50% - calc(400px /2));
+        left: calc(50% - calc(350px /2));
+    }
+
+    &>div {
+        // margin: auto;
+        display: flex;
+    }
+
+    &.hidden {
+        display: none;
+    }
+
+    .close {
+        align-self: flex-end;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .text {}
+
+    .email {
+        // padding-top: 4rem;
+        margin: 0 auto;
+    }
+
+    .field {
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+
+            input {
+                font-family: var(--mono);
+                font-size: 4rem;
+                text-align: center;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                border: 0;
+                background: var(--color);
+                border-bottom: 1px solid;
+                // -webkit-writing-mode: horizontal-tb !important;
+                text-rendering: auto;
+                color: black;
+                letter-spacing: normal;
+                word-spacing: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                text-align: start;
+                -webkit-appearance: textfield;
+                cursor: text;
+                // font-size: 1.5rem;
+                line-height: inherit;
+
+                &:focus {
+                    outline: 0px;
+                }
+
+                &:autofill {
+                    background-color: var(--color);
+                }
+            }
+
+            button {
+                font-family: var(--mono);
+                font-size: 4rem;
+                text-align: center;
+                line-height: 1.1;
+            }
+        }
+
+    }
+
+    .button {}
+}

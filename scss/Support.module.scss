@@ -1,0 +1,66 @@
+.support-wrapper {
+    // width: calc(100% - 48px);
+    padding: var(--gutter);
+    color: #3d100d;
+    font-family: var(--sans);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 4.5rem);
+    align-items: stretch;
+    display: flex;
+
+    .text {
+        font-weight: 200;
+        // margin-bottom: var(--size);
+        p {
+            // margin-bottom: var(--size);
+            + p {
+                text-indent: calc(var(--size) * 3);
+            }
+        }
+    }
+
+    .buttons {
+        // position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // grid-template-areas: patreon paypal;
+        grid-gap: var(--gutter);
+        font-size: 2.3rem;
+        text-transform: uppercase;
+
+
+        a{&:hover{opacity: 0.5;}}
+        .link{
+            margin: auto;
+
+        }
+        .patreon {
+            // grid-area: patreon;
+            background: var(--purple);
+            display: flex;
+            // color: var(--blue);
+        }
+        .paypal {
+            // grid-area: paypal;
+            // background: var(--purple);
+            background: var(--green);
+
+
+            display: flex;
+            // color: var(--purple);
+            // color: var(--green);
+
+
+
+
+            
+
+        }
+    }
+}

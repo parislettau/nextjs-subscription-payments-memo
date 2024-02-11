@@ -1,0 +1,21 @@
+.filtered{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas: "image text";
+    margin-bottom: var(--gutter);
+ 
+    // text-transform: uppercase;
+
+    .text {
+        // font-family: var(--mono);
+        font-style: normal;
+        font-weight: normal;
+        // font-size: 1.3rem;
+        line-height: 110%;
+        /* or 115% */
+        padding: 0 var(--gutter);
+    
+        letter-spacing: 2%;
+    }
+
+}

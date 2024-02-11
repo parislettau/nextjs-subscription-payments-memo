@@ -1,0 +1,76 @@
+// Variables
+$mobile: (
+  max-width: 320px,
+);
+$tablet: (
+  max-width: 641px,
+);
+$labptop: (
+  max-width: 1281px,
+);
+$desktop: (
+  max-width: 2800px,
+);
+
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (max-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (max-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (max-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+
+:root {
+  // fonts
+  --sans: Nimbus-Sans-L, sans-serif;
+  // --sans: Nimbus-Sans-L, sans-serif;
+  // --body: itc, serif;
+  // --body: Century, serif;
+  --body: JJannon Display, serif;
+
+  --mono: Hershey-Noailles-Futura-Simplex-Light, "Roboto Slab", monospace;
+
+  // //FONT SIZES
+  --size: 1.8rem;
+  --gutter: 1rem;
+  --navWidth: 0px;
+  --small-font: 1.3rem;
+  --small-line-height: 1.5rem;
+  --h1: 1.875rem;
+  --font-size-small: 1rem;
+
+  // COLOURS
+  --dark: #3d100d;
+  --yellow: #fefbb3;
+  --purple: #ad00ff;
+  --brown: #3d100d;
+  --green: #52ff00;
+  --orange: #ffb800;
+  --blue: #818dfb;
+  --lightbrown: #9f760b;
+  --undefined: var(brown);
+  --brightorange: #ff3d00;
+
+  ::-moz-selection {
+    background: var(--yellow);
+  }
+
+  ::selection {
+    background: var(--yellow);
+  }
+
+  ::-moz-selection {
+    background: var(--yellow);
+  }
+}

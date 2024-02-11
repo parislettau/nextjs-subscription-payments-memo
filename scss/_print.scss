@@ -1,0 +1,51 @@
+/* override styles when printing */
+@media print {
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+  /* print.css */
+  header,
+  footer,
+  aside,
+  .nav,
+  nav,
+  form,
+  iframe,
+  .menu,
+  .hero,
+  .adslot {
+    display: none !important;
+  }
+
+  article {
+    column-width: 17em;
+    column-gap: 3em;
+  }
+
+  * {
+    background-image: none !important;
+  }
+  main {
+    margin: 0 !important;
+  }
+  img,
+  figure,
+  picture,
+  svg {
+    display: none !important;
+  }
+
+  img.print,
+  svg.print {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* print.css */
+  h1 {
+    break-before: always;
+  }
+}

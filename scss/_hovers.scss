@@ -1,0 +1,17 @@
+/* Hovers */
+
+@media(hover:hover){
+    header nav ul li a:hover{
+      background-color:var(--yellow);
+      color: LightGray;
+    }
+    section p a.button:hover{
+      background-color:var(--yellow);
+      color:var(--black);
+    }
+  }
+
+a:hover{
+    // color: LightGray;
+  }
+  
